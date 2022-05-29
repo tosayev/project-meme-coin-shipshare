@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# ShipShareCoin Meme Coin
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a meme coin called "ShipShareCoin".  The idea is that a 40 million USD crude oil tanker's purchase is funded by an initial coin offering with ShipShareCoins proportional to purchase price at a 1 USD = 1 ShipShareCoin exchange rate.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+In reality, this concept would not work unless a different token is used for each ship because different ships' values change differently over time.  So, if the token is supposed to represent shares in a specific vessel, each vessel should have its own custom token (for example SS987654321 for a vessel with IMO number 987654321) or a common token can be used to represent a share of a fleet of vessels.
